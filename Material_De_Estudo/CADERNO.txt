@@ -1,0 +1,14 @@
+---CMD---
+cd - seleciona determinada pasta
+dir - abre a pasta e mostra o que e possível fazer
+cls - limpa a tela
+
+---GIT---
+PASSOS PARA SUBIR ARQUIVOS: ADD|COMMIT|PUSH
+echo "# Residencia_Orion" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/neblione/Residencia_Orion.git
+git push -u origin main
