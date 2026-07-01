@@ -5,10 +5,25 @@ cls - limpa a tela
 
 ---GIT---
 PASSOS PARA SUBIR ARQUIVOS: ADD|COMMIT|PUSH
+!!CAMINHOS PRECISAM ESTAR ENTRE ASPAS!!
 echo "# Residencia_Orion" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/neblione/Residencia_Orion.git
-git push -u origin main
+git init    INICIA O GIT
+git add README.md      ADICIONA UM README GENERICO
+git add .          INICIA O PROCESSO DE ATUALIZACAO NO HUB
+git commit -m "first commit"      ADICIONA UM COMENTARIO PARA A VERSAO LANCADA
+git branch -M main        CRIA UMA RAMIFICACAO DO CONTEUDO TRABALHADO NO MOMENTO
+git remote add origin https://github.com/neblione/Residencia_Orion.git     VINCULA O PROJETO ARQUIVADO NO COMPUTADOR COM A NUVEM DO HUB
+git push -u origin main          JOGA TODAS AS ALTERACOES DO PROJETO NO HUB
+git rm -r    EXCLUI ARQUIVO
+
+
+
+
+
+
+
+
+
+
+
+O GIT NAO EXIBE PASTAS SEM CONTEUDO 
